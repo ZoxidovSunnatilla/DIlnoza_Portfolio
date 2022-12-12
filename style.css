@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul, ol{
+    list-style: none;
+}
+.container{
+    width: 85%;
+    margin: auto;
+    height: 100%;
+}
+body{
+    width: 1366px;
+}
+/* Sunnat start */
+
+/* Sunnat end */
+/* Dilnona start */
+
+/* Dilnona end */
+/* Abdurahmon start */
+
+/* Abdurahmon end */
+/* Abbos start */
+
+/* Abbos end */
