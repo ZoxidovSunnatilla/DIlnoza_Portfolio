@@ -34,7 +34,8 @@ body {
     
 }
 body{
-    width: 1366px;
+    max-width: 1366px;
+    width: 100%;
 }
 ol,ul{
     list-style: none;
@@ -132,7 +133,7 @@ header .parent__main .text_two {
 }
 
 @media screen and (min-width: 350px) and (max-width:768px) {
-    .parent__main .text_one {
+    header .parent__main .text_one {
         font-size: 39px;
         line-height: 48px;
         font-weight: 900;
@@ -141,7 +142,7 @@ header .parent__main .text_two {
         text-align: center;
     }
 
-    .parent__main .text_two {
+    header .parent__main .text_two {
         font-size: 25px;
         line-height: 28px;
         font-weight: 500;
@@ -165,7 +166,7 @@ header .parent__main .text_two {
 }
 
 @media screen and (min-width: 100px) and (max-width: 340px) {
-    .parent__main .text_one {
+    header .parent__main .text_one {
         font-size: 30px;
         line-height: 35px;
         font-weight: 900;
@@ -174,7 +175,7 @@ header .parent__main .text_two {
         text-align: center;
     }
 
-    .parent__main .text_two {
+    header .parent__main .text_two {
         font-size: 20px;
         line-height: 28px;
         font-weight: 500;
@@ -197,7 +198,7 @@ header .parent__main .text_two {
 }
 
 @media screen and (min-width: 768px) and (max-width:1024px) {
-    .parent__main .text_one {
+    header .parent__main .text_one {
         font-size: 60px;
         line-height: 68px;
         font-weight: 900;
@@ -206,7 +207,7 @@ header .parent__main .text_two {
         text-align: center;
     }
 
-    .parent__main .text_two {
+    header .parent__main .text_two {
         font-size: 35px;
         line-height: 38px;
         font-weight: 500;
