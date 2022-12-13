@@ -240,6 +240,7 @@ header .parent__main .parent {
 .section_2 .css {
     color: #00FFFF;
 }
+
 .section_2 .scss {
     color: #bf4080;
 }
@@ -312,8 +313,69 @@ header .parent__main .parent {
 
 
 /* Abdurahmon start */
+.portfolio {
+    padding: 50px 0;
+}
+
+.portfolio__title {
+    margin-bottom: 40px;
+    font-style: italic;
+    font-size: 36px;
+    text-align: center;
+}
+
+.portfolio__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    justify-content: center;
+    /* grid-template-rows: repeat(1fr, 2); */
+    gap: 30px;
+}
+
+.portfolio__card {
+    border-radius: 12px;
+    padding: 10px;
+    background: rgb(240, 240, 240);
+}
+
+.card__header {
+    border-radius: 10px;
+    height: 389px;
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+
+.card__header:hover .card__img {
+    transform: scale(1.05);
+}
+
+.card__img {
+    width: 100%;
+    object-fit: cover;
+    transition: .5s;
+}
+
+.card__txt {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.card__btn {
+    color: #fff;
+    display: block;
+    margin-left: auto;
+    padding: 8px 10px;
+    border-radius: 6px;
+    background: #5361FF;
+    width: max-content;
+}
+
+.card__btn:hover {
+    color: #fff;
+}
 
 /* Abdurahmon end */
+
 /* Abbos start */
 
 /* Abbos end */
