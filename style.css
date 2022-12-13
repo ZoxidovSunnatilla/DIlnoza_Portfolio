@@ -14,8 +14,10 @@ ol {
 }
 
 .container {
-    width: 85%;
+    width: 90%;
     margin: auto;
+    padding-left: 0;
+    padding-right: 0;
     height: 100%;
 }
 
@@ -30,10 +32,6 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    font-family: sans-serif;
 }
 
 .flex {
@@ -58,6 +56,8 @@ header {
 header .container {
     width: 90%;
     margin: 0px auto;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 header .parent {
@@ -91,7 +91,7 @@ header .navbar {
 
 .parent__main {
     width: 100%;
-    height: 70vh;
+    height: auto;
     background-color: #5361FF;
     position: relative;
     top: 100px;
@@ -125,6 +125,7 @@ header .navbar {
     flex-direction: column;
     height: 100%;
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .parent__main .container {
@@ -132,9 +133,21 @@ header .navbar {
     margin: 0px auto;
 }
 
-@media screen and (min-width: 200px) and (max-width:768px) {
+.offcanvas .href {
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+}
+
+@media screen and (min-width: 350px) and (max-width:768px) {
     .parent__main .text_one {
-        font-size: 45px;
+        font-size: 39px;
         line-height: 48px;
         font-family: 'Montserrat', sans-serif;
         font-weight: 900;
@@ -147,6 +160,79 @@ header .navbar {
     .parent__main .text_two {
         font-size: 25px;
         line-height: 28px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        text-decoration: none;
+        color: #FAFAFF;
+        text-align: center;
+    }
+
+    header .parent .right {
+        display: none;
+    }
+
+    header .parent .navbar {
+        display: block;
+    }
+
+    header .parent .navbar i {
+        color: #FFF;
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (min-width: 100px) and (max-width: 340px) {
+    .parent__main .text_one {
+        font-size: 30px;
+        line-height: 35px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        text-decoration: none;
+        color: #FFF;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .parent__main .text_two {
+        font-size: 20px;
+        line-height: 28px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        text-decoration: none;
+        color: #FAFAFF;
+        text-align: center;
+    }
+
+    header .parent .right {
+        display: none;
+    }
+
+    header .parent .navbar {
+        display: block;
+    }
+
+    header .parent .navbar i {
+        color: #FFF;
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1024px) {
+    .parent__main .text_one {
+        font-size: 60px;
+        line-height: 68px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        text-decoration: none;
+        color: #FFF;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .parent__main .text_two {
+        font-size: 35px;
+        line-height: 38px;
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
         text-decoration: none;
