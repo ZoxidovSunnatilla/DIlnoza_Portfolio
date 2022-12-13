@@ -16,37 +16,15 @@ ol {
 .container {
     width: 90%;
     margin: auto;
-    padding-left: 0;
-    padding-right: 0;
     height: 100%;
 }
 
 body {
-    width: 1366px;
-}
-
-/* Sunnat start */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
-body{
     max-width: 1366px;
     width: 100%;
 }
-ol,ul{
-    list-style: none;
-}
-a{
-    text-decoration: none !important;
-}
-.container{
-    width: 90%;
-    margin: auto;
-}
+
+/* Sunnat start */
 .flex {
     display: flex;
     justify-content: center;
@@ -90,9 +68,9 @@ header .navbar {
     display: none;
 }
 
-.parent__main {
+header .parent__main {
     background-color: #5361FF;
-   
+
 }
 
 header .parent__main .text_one {
@@ -103,7 +81,7 @@ header .parent__main .text_one {
     margin-bottom: 20px;
 }
 
-header  .parent__main .text_one span {
+header .parent__main .text_one span {
     color: transparent;
     -webkit-text-stroke: 1px #fff;
 }
@@ -115,7 +93,7 @@ header .parent__main .text_two {
     color: #FAFAFF;
 }
 
-.parent__main .parent {
+header .parent__main .parent {
     flex-direction: column;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -231,9 +209,112 @@ header .parent__main .text_two {
 }
 
 /* Sunnat end */
-/* Dilnona start */
 
-/* Dilnona end */
+
+/* <-=============== A'zam start ===============->  */
+.section_2 {
+    background-color: #f9e498;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.section_2 .sect2_photo {
+    width: 500px;
+    object-fit: cover;
+}
+
+.section_2 .sect2_h1 {
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    margin: 30px 0;
+}
+
+.section_2 .sect2_logo_icons i {
+    font-size: 100px;
+}
+
+.section_2 span {
+    margin: 25px;
+}
+
+.section_2 .html {
+    color: #FF5733;
+}
+
+.section_2 .css {
+    color: #00FFFF;
+}
+.section_2 .scss {
+    color: #bf4080;
+}
+
+.section_2 .js {
+    color: yellow;
+}
+
+.section_2 .react {
+    color: #0039FF;
+}
+
+.section_2 .node {
+    color: #194D33;
+}
+
+.section_2 .sect2_social_media i {
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.section_2 .telegram {
+    color: #0088cc;
+}
+
+.section_2 .instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section_2 .phone {
+    color: rgb(79, 169, 79);
+}
+
+.section_2 .sect2_socalMedia_a {
+    margin: 0 12px;
+}
+
+@media screen and (min-width:200px) and (max-width:768px) {
+    .section_2 .flex {
+        display: block;
+    }
+
+    .section_2 .sect2_logo_icons {
+        margin: 50px 0;
+    }
+
+    .section_2 .sect2_h1 {
+        font-size: 40px;
+    }
+
+    .section_2 .sect2_logo_icons i {
+        font-size: 80px;
+    }
+
+    .section_2 .sect2_social_media i {
+        font-size: 30px;
+        margin-top: -15px;
+    }
+
+    .section_2 .sect2_photo {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+/* <-=============== A'zam end ===============-> */
+
+
 /* Abdurahmon start */
 
 /* Abdurahmon end */
