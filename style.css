@@ -36,10 +36,6 @@ body {
 header {
     padding: 20px 0;
     background-color: #5361FF;
-    position: sticky;
-    top: 0px;
-    left: 0px;
-    right: 0;
 }
 
 header .parent {
@@ -225,8 +221,8 @@ header .parent__main .parent {
 
 .section_2 .sect2_h1 {
     font-size: 80px;
-    color: rgb(255, 255, 255);
-    margin: 30px 0;
+    color: #000;
+    margin: 30px 0 30px 30px;
 }
 
 .section_2 .sect2_logo_icons i {
