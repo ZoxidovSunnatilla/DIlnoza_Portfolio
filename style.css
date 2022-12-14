@@ -19,9 +19,9 @@ ol {
     height: 100%;
 }
 
-body {
-    max-width: 1366px;
-    width: 100%;
+.site {
+    width: 1366px;
+    position: relative;
 }
 
 /* Sunnat start */
@@ -475,9 +475,29 @@ footer .footer__btn {
 }
 
 @media screen and (min-width:200px) and (max-width:768px) {
-    footer .footer__main{
+    footer .footer__main {
         flex-direction: column;
     }
 }
 
 /* Abbos end */
+
+@media (max-width: 420px){
+    .site{
+        width: 420px;
+    }
+}
+
+@media (max-width: 768px){
+    .site{
+        width: 768px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (min-width: 1366px) {
+    .site {
+        max-width: 1920px;
+        margin: auto;
+    }
+}
