@@ -377,5 +377,107 @@ header .parent__main .parent {
 /* Abdurahmon end */
 
 /* Abbos start */
+footer {
+    margin: 160px auto 0 auto;
+}
+
+footer .footer__main {
+    gap: 25px;
+}
+
+footer .footer__menu {
+    max-width: 600px;
+    width: 100%;
+}
+
+footer .footer__logo {
+    color: #5361FF;
+    font-size: 30px;
+}
+
+footer .footer__text {
+    width: 420px;
+    line-height: 25px;
+    text-align: justify;
+    color: #767776;
+
+}
+
+footer .footer_box {
+    width: 280px;
+    height: auto;
+    padding: 20px 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #b1b1b1;
+    margin: 0 10px 10px 0;
+    align-items: center;
+    transition: .5s;
+}
+
+footer .footer_box:hover {
+    transform: translateY(-15px);
+}
+
+footer .footer__icon__text {
+    justify-content: start;
+    margin-bottom: 0;
+}
+
+footer a {
+    color: #5361FF;
+}
+
+footer .footer__icon {
+    margin: 0 20px 0 10px;
+    background-color: #5361FF;
+    color: #fff;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 20px;
+}
+
+footer .footer__icon_3 {
+    margin: 0 20px 0 10px;
+    background-color: #5361FF;
+    color: #fff;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 17px;
+}
+
+footer .footer__form {
+    text-align: right;
+}
+
+footer .footer__input {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 0;
+
+}
+
+footer .footer__message {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+footer .footer__btn {
+    padding: 8px 30px 6px 30px;
+    border: 1px solid #5361FF;
+    background: #5361FF;
+    color: #fff;
+}
+
+@media screen and (min-width:200px) and (max-width:768px) {
+    footer .footer__main{
+        flex-direction: column;
+    }
+}
 
 /* Abbos end */
