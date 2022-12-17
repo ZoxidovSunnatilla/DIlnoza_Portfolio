@@ -1,3 +1,4 @@
+AOS.init();
 // Sunnat start
 
 // Sunnat end
