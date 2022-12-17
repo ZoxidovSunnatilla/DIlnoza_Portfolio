@@ -19,10 +19,10 @@ ol {
     height: 100%;
 }
 
-.site {
-    width: 1366px;
+/* .site {
+    max-width: 1366px;
     position: relative;
-}
+} */
 
 /* Sunnat start */
 .flex {
@@ -482,15 +482,15 @@ footer .footer__btn {
 
 /* Abbos end */
 
-@media (max-width: 420px){
+/* @media (max-width: 420px){
     .site{
-        width: 420px;
+        max-width: 420px;
     }
 }
 
 @media (max-width: 768px){
     .site{
-        width: 768px;
+        max-width: 768px;
         padding-bottom: 50px;
     }
 }
@@ -500,4 +500,4 @@ footer .footer__btn {
         max-width: 1920px;
         margin: auto;
     }
-}
+} */
